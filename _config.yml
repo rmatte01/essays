@@ -20,5 +20,8 @@ defaults:
 minima:
   skin: auto
 
+exclude:
+  - "_essays/_template.md"
+
 plugins:
   - jekyll-feed
