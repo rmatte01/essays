@@ -18,13 +18,19 @@
 }
 
 body {
-  font-family: Georgia, serif;
-  font-size: 1.125rem;
+  font-family: "Calibri", "Calibri Light", sans-serif;
+  font-size: 11pt;
   line-height: 1.7;
   color: var(--text);
   background: var(--bg);
   margin: 0;
   padding: 0 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Calibri Light", "Calibri", sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
 }
 
 header, main, footer {
