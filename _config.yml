@@ -1,0 +1,24 @@
+title: Essays
+description: Personal essays by rmatte01
+baseurl: "/essays"
+url: "https://rmatte01.github.io"
+
+theme: minima
+
+collections:
+  essays:
+    output: true
+    permalink: /essays/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: essays
+    values:
+      layout: post
+
+minima:
+  skin: auto
+
+plugins:
+  - jekyll-feed
